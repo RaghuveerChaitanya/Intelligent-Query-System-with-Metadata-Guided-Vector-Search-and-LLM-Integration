@@ -9,23 +9,17 @@ which uses relevant context from a vector database (Qdrant) to answer intelligen
 The vector DB search is filtered by user ID."
 
 1. You enter a query + user ID
-
-       |
+       ↓
 2. Query is converted into an embedding (vector)
-
-       |
+       ↓
 3. Vector is searched in Qdrant with metadata filter (user_id)
-
-       |
+       ↓
 4. Top 3 relevant documents are retrieved
-
-       |
+       ↓
 5. Query + context is passed to ChatGPT (LLM)
-
-       |
+       ↓
 6. ChatGPT generates a smart response
-  
-       |
+       ↓
 7. Response is shown to the user
 
 “I’ve built a system using Python + Qdrant + OpenAI where a query is passed to an LLM, 
