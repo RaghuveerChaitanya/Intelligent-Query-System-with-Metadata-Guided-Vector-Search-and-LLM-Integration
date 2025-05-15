@@ -1,5 +1,5 @@
  Intelligent-Query-System-with-Metadata-Guided-Vector-Search-and-LLM-Integration
- ## [DPR - Detailed Project Report]Goal of the Project:
+  [DPR - Detailed Project Report]Goal of the Project:
 
   ask a question → LLM reads it → Pulls data from a vector database like Qdrant or 
  pgvector → Filters based on user_id → Returns an enriched answer.
